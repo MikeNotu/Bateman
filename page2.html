@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Mike's Portfolio</title>
+    <title>Bootstrap 4 Example</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -11,13 +11,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="styles2.css" />
+ 
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="slider.css" />
   </head>
   <body>
-    <script src="script.js"></script>
-
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"
@@ -33,59 +31,47 @@
       rel="stylesheet"
     />
 
-    <header class="header">
-      <nav class="navbar navbar-expand-lg fixed-top py-3">
-        <div class="container">
-          <a href="#" class="navbar-brand text-uppercase font-weight-bold"
-            >Michael Bateman</a
-          >
-          <button
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-            class="navbar-toggler navbar-toggler-right"
-          >
-            <i class="fa fa-bars"></i>
-          </button>
-
-          <div id="navbarSupportedContent" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Gallery</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Portfolio</a
-                >
-              </li>
-              <li class="nav-item">
-                <a href="#" class="nav-link text-uppercase font-weight-bold"
-                  >Contact</a
-                >
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
+    <header class="main-header">
+		<div class="container">
+		  <nav class="navbar navbar-expand-lg main-nav px-0">
+			<a class="navbar-brand" href="/mojo">
+							  <img src="http://rajeshdas.com/assets/images/logo.svg" alt="rajeshdas.com">
+							</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainMenu" aria-controls="mainMenu" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="icon-bar icon-bar-1"></span>
+							<span class="icon-bar icon-bar-2"></span>
+							<span class="icon-bar icon-bar-3"></span>
+						</button>
+			<div class="collapse navbar-collapse" id="mainMenu">
+			  <ul class="navbar-nav ml-auto text-uppercase f1">
+				<li>
+				  <a href="#home" class="active active-first">home</a>
+				</li>
+				<li>
+				  <a href="#about">about us</a>
+				</li>
+				<li>
+				  <a href="#service">services</a>
+				</li>
+				<li>
+				  <a href="#project">projects</a>
+				</li>
+				<li>
+				  <a href="#team">team</a>
+				</li>
+				<li>
+				  <a href="#testimony">testimonils</a>
+				</li>
+				<li>
+				  <a href="#contact">contact</a>
+				</li>
+			  </ul>
+			</div>
+		  </nav>
+		</div>
+	  </header>
 
 
-    <!-- ---------------------------------------------------- -->
     <script>
       !(function (e) {
         "undefined" == typeof module
@@ -137,29 +123,47 @@
                 background-image: url(https://images.unsplash.com/photo-1538083024336-555cf8943ddc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66b476a51b19889e13182c0e4827af18&auto=format&fit=crop&w=1950&q=80);
               "
             ></div>
-            <span class="slide-title">Frontend</span>
+            <span class="slide-title">Exotic places</span>
           </div>
 
           <div class="swiper-slide slide">
             <div
               class="slide-image"
               style="
-                background-image: url(https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80;;;;
+                background-image: url(https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80;;
               "
             ></div>
-            <span class="slide-title">Backend</span>
+            <span class="slide-title">Meet ocean</span>
           </div>
 
           <div class="swiper-slide slide">
             <div
               class="slide-image"
               style="
-                background-image: url(https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80;;;;
+                background-image: url(https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80;;
               "
             ></div>
-            <span class="slide-title">Mobile Development</span>
+            <span class="slide-title">Around the world</span>
           </div>
 
+          <!--         <div class="swiper-slide slide">
+           <div class="slide-imageswiper-lazy" data-background="https://images.unsplash.com/photo-1538083024336-555cf8943ddc?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=66b476a51b19889e13182c0e4827af18&auto=format&fit=crop&w=1950&q=80">
+           </div>
+           </div>
+           <span class="slide-title">Exotic places</span>
+         </div>
+       
+         <div class="swiper-slide slide">
+           <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e07d2457879a4e15577ec75a31023e47&auto=format&fit=crop&w=2134&q=80">
+           </div>
+           <span class="slide-title">Meet ocean</span>
+         </div>
+       
+         <div class="swiper-slide slide">
+           <div class="slide-image swiper-lazy" data-background="https://images.unsplash.com/photo-1482059470115-0aadd6bf6834?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=267bba9a4e280ec64388fe8fb01e9d1b&auto=format&fit=crop&w=1950&q=80">
+           </div>
+           <span class="slide-title">Around the world</span>
+         </div> -->
         </div>
 
         <div class="slideshow-pagination"></div>
