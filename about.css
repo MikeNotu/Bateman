@@ -50,11 +50,14 @@ li {
 }
 
 .fa-js-square {
+
+   color: rgb(255, 204, 20); 
+
+/*
   color: rgb(247, 223, 30);
-  /* color: rgb(239, 218, 77); */
   margin-left: -5px;
   margin-right: -5px;
-
+*/
 }
 
 .fa-git-square {
