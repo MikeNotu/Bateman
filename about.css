@@ -67,8 +67,7 @@ li {
 
   .fa-cloud {
     color: rgb(10, 75, 177);
-    margin-left: 5px;
-    margin-right: 5px;
+
   }
 
   .fa-square {
@@ -76,6 +75,30 @@ li {
     margin-left: -5px;
     margin-right: -5px;
   }
+  
+  .fa-mobile-alt {
+    color: rgb(54, 52, 214);
+  }
+
+  /* .fa-circle {
+    color: rgb(108, 66, 156);
+  } */
+
+  .fa-desktop{
+      color: rgb(94, 189, 53);
+  }
+
+  .fa-file-code{
+    color: rgb(0, 170, 195);
+}
+
+.fa-android{
+    color: rgb(164, 198, 57);
+}
+
+.fa-file-alt{
+    color: rgb(73, 78, 88);
+}
 
   i {
     margin-left: 2px;
