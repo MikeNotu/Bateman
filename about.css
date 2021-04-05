@@ -51,12 +51,16 @@ li {
 
 .fa-js-square {
 
-   color: rgb(255, 204, 20); 
+/*   color: rgb(255, 204, 20); 
+*/
 
-/*
+
+
   color: rgb(247, 223, 30);
-  margin-left: -5px;
-  margin-right: -5px;
+
+/*  
+  margin-left: -2px;
+  margin-right: -2px;
 */
 }
 
@@ -75,8 +79,12 @@ li {
 
   .fa-square {
     color: rgb(0, 0, 0);
-    margin-left: -5px;
-    margin-right: -5px;
+
+/*
+    margin-left: -2px;
+    margin-right: -2px;
+*/
+
   }
   
   .fa-mobile-alt {
