@@ -52,7 +52,17 @@ ul {
   .carousel{
     position: relative;
     left: 25%;
-    width: 100%;
-    text-align: center;
+    width: 50%;
 
   }
+
+  @media screen and (max-width: 500px) {
+
+      .carousel{
+    position: relative;
+    left: 0%;
+    width: 100%;
+
+  }
+
+}
